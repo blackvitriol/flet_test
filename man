@@ -1,0 +1,7 @@
+# Dev WS: Windows 10, Python 3.10 
+
+flet run main.py -r -v
+pip install pyinstaller
+pip uninstall typing
+pip install pillow
+flet pack main.py --icon assets\images\icon.png --add-data "assets;assets" flet pack main.py --icon assets\images\icon.png --product-name "A7 Flet Interface" --product-version "0.1" --file-version "0.1" --file-description "The interface for A7 Flet"
